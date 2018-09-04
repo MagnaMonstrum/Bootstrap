@@ -1,0 +1,22 @@
+.jumbotron {
+    background-image: url("../img/motor_head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+body, p, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.row {
+    margin-bottom: 400px;
+}
