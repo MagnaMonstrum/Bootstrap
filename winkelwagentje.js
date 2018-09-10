@@ -32,8 +32,15 @@ aantal2.addEventListener("change", function() {
     berekenSubTotaal(motor2_price, aantal2, totaal2);
 });
 
+var totaalprijs = (parseFloat(totaal.textContent)
++ parseFloat(totaal1.textContent)
++ parseFloat(totaal2.textContent));
+
+var volletank = 0;
+if(document.getElementById("benzine").checked) {
+    totaalprijs = (totaalprijs + 50).toFixed(2);
+}
+
 totaalknop.addEventListener("click", function(){
-    document.getElementById("totaalprijs").textContent = (parseFloat(totaal.textContent)
-                                                        + parseFloat(totaal1.textContent)
-                                                        + parseFloat(totaal2.textContent)).toFixed(2);
+    document.getElementById("totaalprijs").textContent = totaalprijs;
 })
