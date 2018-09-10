@@ -26,3 +26,4 @@ aantal1.addEventListener("change", function () {
     berekenSubTotaal(motor1_price, aantal1, totaal1);
 });
 
+//
