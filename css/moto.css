@@ -17,3 +17,7 @@ body, p, a {
 .navbar {
     margin-bottom: 0px;
 }
+
+.totaalknop {
+    float: right;
+}
